@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.container{
+background-color:hsl(216deg 55% 11%);
+height: 100vh;
+font-family: 'Outfit', sans-serif;
+}
+.container section {
+      background-color: hsl(214deg 50% 16%);
+      width: 300px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+      -o-transform: translate(-50%,-50%);
+      padding: 20px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}
+
+section .eth-text img{ 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+     border-radius: 10px;
+      -webkit-border-radius: 10px; 
+      -moz-border-radius: 10px;
+       -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+section .eth-text p{
+font-size: 1rem;
+color: hsl(215deg 29% 36%);
+line-height: 1.4;
+margin-bottom: 10px;
+
+}
+
+
+section .eth-text h1{
+line-height: 3;
+}
+section .eth-count{
+display: flex;
+align-items: center;
+position: relative;
+justify-content: space-between;
+margin-top: 15px;
+margin-bottom: 35px;
+}
+.eth-count span:nth-of-type(2){
+    color: hsl(215deg 29% 50%);
+}
+section .eth-count::after{
+    content: "";
+position: absolute;
+width: 90%;
+height: 1px;
+top:37.5px;
+left: 15px;
+background-color: hsl(215deg 29% 36%);
+
+margin-right: auto;
+margin-left: auto;
+}
+.eth-count span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eth-count span img{
+    margin-right: 5px;
+}
+.eth-count :nth-child(1){
+    color: hsl(178, 100%, 50%);
+}
+section .last{
+display: flex;
+align-items: center;
+margin-top: 10px;
+}
+.last span{
+    color: hsl(215deg 29% 36%);
+
+}
+.last span span{
+    color: white;
+
+}
+.last img{
+    border-radius: 50%;
+    width: 30px;
+margin-right: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
